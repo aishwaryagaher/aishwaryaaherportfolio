@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="new.css">
+
+    <title>Responsive Personal Portfoloi Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- HEADER DESIGN -->
+     <header class="header">
+        <a href="" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#" class="act">Home</a>
+            <a href="#about" class="act">About</a>
+            <a href="#services" class="ac">Services</a>
+            <a href="#myskills" class="act">My Skills</a>
+            <a href="#certificate" class="ac">Certificate</a>
+            <a href="#contact" class="ac">Contact</a>
+
+        </nav>
+
+
+        </header>
+
+        <!--  HOME sECTION DESIGN -->
+
+        <section class="home">
+            <div class="home-content">
+                <h3>Hi, Myself </h3>
+                <h1>Aishwarya Aher</h1>
+                <br>
+                <h3>And I'm a <span class="auto-type">Frontend Developer</span>
+                <span class="typed-cursor" aria-hidden="true">|</span>
+                </h3>
+                <script>
+                    var typed =new Typed(".auto-type",{
+                        strings : ["Frontend Developer","Web Developement Intern"],
+                        typeSpeed : 150,
+                        backSpeed :150,
+                        looped : true
+                    })
+                </script>
+                
+                <p>Hi, I'm web development intern at Infeanet Digital Solution and Web Media. <br>Here you can find my latest projects and learn more about me.</p>
+                <div class="social-media">
+
+                    <a href="https://www.linkedin.com/in/aishwarya-aher-9948612b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/aish14_46?igsh=MTV2Z3F1N2ZyODhyNg=="><i class='bx bxl-instagram'></i></a>
+                    <a href="https://wa.me/qr/Y77RA3V36SEBJ1"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="images/img4.jpg" alt="img4" width="500px" height="500px">
+            </div>
+        </section>
+
+
+        <!--ABOUT SECTION DESIGN-->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/img8.jpg" alt="img8" height="250" width="180">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>With a background in both design and development, I have a keen eye for detail and a deep understanding of how things work. My mission is to make the web a better place by creating websites that are not only visually appealing but also highly functional.I am a dedicated computer engineering student at Government Polytechnic Pune , specializing in Computer Science and engineering. I am passionate about leveraging technology to solve real-world problems. My goal is to become a sucessfull engineer.. </p>
+                <a href="#" class="btn" >Read More</a>
+
+
+            </div>
+        </section>
+
+        <!--SERVICES SECTION DESIGN-->
+
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Services</span>
+            </h2>
+            <div class="services-container">
+
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developement</h3>
+                    <p>Providing comprehensive web development services to create dynamic, high-performing websites tailored to your business needs. We specialize in custom web development, ensuring your site is unique and aligns with your brand identity. Our team is proficient in developing responsive designs that offer seamless user experiences across all devices.</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-code-curly'></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Offering expert UI/UX design services to create visually stunning and user-friendly interfaces that enhance user satisfaction and engagement. We focus on understanding your target audience to design intuitive and accessible user experiences.</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxl-android'></i>
+                    <h3>Android App Developement</h3>
+                    <p>Offering comprehensive Android app development services to create feature-rich, high-performing applications tailored to your business needs. Our team excels in designing intuitive user interfaces and delivering seamless user experiences. We specialize in custom app development, ensuring your app is unique and meets all your specific requirements.</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!--MY SKILLS SECTION DESIGN-->
+
+            <section class="myskills" id="myskills">
+
+  <div class="myskills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <br>
+    <br>
+
+    <div class="skill">
+    <i class='bx bxl-html5'></i>
+    <div class="skill-name">HTML</div>
+    <div class="skill-bar">
+        <div class="skill-level" id="htmlSkill"></div>
+    </div>
+</div>
+<br>
+<br>
+<div class="skill">
+    <i class='bx bxl-css3' ></i>
+    <div class="skill-name">CSS</div>
+    <div class="skill-bar">
+        <div class="skill-level" id="cssSkill"></div>
+    </div>
+</div>
+<br>
+<br>
+<div class="skill">
+    <i class='bx bxl-javascript' ></i>
+    <div class="skill-name">Javascript</div>
+    <div class="skill-bar">
+        <div class="skill-level" id="jsSkill"></div>
+    </div>
+
+<br>
+<br>
+    <div class="skill">
+        <i class='bx bxl-c-plus-plus'></i>
+        <div class="skill-name">CPP</div>
+        <div class="skill-bar">
+            <div class="skill-level" id="cppSkill"></div>
+        </div>
+    </div>
+</div>
+<script src="new.js"></script>
+
+</section>
+
+        <!--  CERTIFICATE SECTION DESIGN -->
+
+            <section class="certificate" id="certificate">
+                <h2 class="heading"><span>Certificate</span></h2>
+
+                <br>
+                <br>
+                <div class="certificate">
+
+                    <div class="certificate-img">
+                    <img src="images/c2.jpg" alt="c2" height="300" width="500">
+                  
+                    <img src="images/c1.jpg" alt="c1" height="300" width="500">
+                    </div>
+                    <br>  
+                    <br>
+                    <br> 
+                    <br>
+                    <div class="certificate-img">
+                        <img src="images/c4.jpg" alt="c4" height="300" width="500">
+                        
+                            <img src="images/c3.jpg" alt="c3" height="300" width="500">
+                     </div>
+                </div>
+
+            </section>
+
+
+        <!--  CONTACT SECTION DESIGN -->
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+                
+            <p>I would love to respond to your queries and help you succeed. Feel free to get in touch with Me.</p>
+            
+          
+            <div class="box">
+                <div class="contact-left">
+                <h3>Send your request</h3>
+          
+          
+            <form>
+              <div class="row">
+                <div class="group">
+                    <label>Name :</label>
+                    <input type="text" placeholder="Name">
+                </div>
+          
+                <div class="group">
+                    <label>Phone No :</label>
+                    <input type="text" placeholder="9730xxxxxx">
+                </div>
+                </div>
+          
+          
+                <div class="row">
+                <div class="group">
+                    <label>Email :</label>
+                    <input type="text" placeholder="abc@gmail.com">
+                </div>
+          
+                <div class="group">
+                    <label>Subject :</label>
+                    <input type="text" placeholder="Your Subject">
+                </div>
+                </div>
+                
+                <label>Message :</label>
+                <textarea rows="5" placeholder="your Message"> </textarea>
+              
+                <button type="submit">SEND</button>
+            
+            </form>
+          </div> 
+          <div class="contact-right">
+            <h3>Contact me</h3>
+          
+            <table>
+            <tr>
+                <td>Email : </td><td>aishwaryaaher96@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Phone : </td> <td>9322313392</td>
+             </tr>
+                <tr>           
+                    <td>Address : </td><td>Government Polytechnic,Pune</td>
+                </tr>
+            </table>
+        
+        
+        <!--FOOTER DESIGN -->
+
+            <footer class="footer">
+        
+                    <div class="footer-iconTop">
+                    <a href="index.html"><i class='bx bx-arrow-back'></i></a>
+                </div>
+            </footer>
+
+       
+</body>
+</html> 
